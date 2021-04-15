@@ -1,0 +1,21 @@
+kono object er method k access korar jonno object er pore . use koremethod ta call korte hoy mane access korte hoy.
+
+example---> 
+
+course = "Python programming"
+print(course.upper())
+
+===========================================================
+
+.upper() --->> sob capitalize korar jonno
+.lower() --->> sob lower korar jonno
+.title() --->> protita word er first letter capital korar jonno.
+.strip() --->> user inputer somoy jodi user kono extra space diyea thake, tahole sei space remove korar jonno. 
+.lstrip() --->> string er left theke space remove er jonno
+.rstrip() --->> string er right theke space remove korar jonno.
+.find("eikhane jeita khujte hobe seita likhte hobe") --->> kono string er index janar jonno.
+.replace("jeita replace korte hobe", "jeita diyea replace korbo") --->> string er kichu replace korte.
+
+in expression --->> string a kono charactar ache na nai eita chk korar jonno use kora hoy. true or false result ashe.
+
+not in expression --->> same kaj kore sudhu ulta vabe

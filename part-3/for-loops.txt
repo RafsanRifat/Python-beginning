@@ -1,0 +1,4 @@
+eikhane range() ekta function, jeita 0 theke integer number generate kore .    aikhane jodi ekta argument dewa hoy tahole sei porjonto number generate korbe eita,
+mane range(3) dile 0 theke suru kore 3ta number generate korbe eita.
+range(1, 4) ---> eitar meaning holo- 1 theke suru kore 4 er agee porjonto.
+range(1, 10, 2) ---> eitar mane holo - 1 theke suru kore 10 porjonto r increment 2. mane 1 er por 3 tarpor 5 eivabe.

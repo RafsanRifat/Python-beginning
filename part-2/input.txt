@@ -1,0 +1,19 @@
+two object can be concatenated if they are the same type.
+
+
+python a kichu builtin function ache jara type conversion a bebohrito hoy, orthat-- float k integer a ,
+integer k float a, string k integer a, integer k float a  etc.....
+
+
+int(eikhane variable name) ---> onno jekono type k integer a rupantor korte.
+float() ---> onno jekono type k float a rupantor korte.
+bool() ---> onno jekono type k Boolean a rupantor korte.
+str() --->  onno jekono type k string a rupantor korte.
+
+
+==========================================================
+type(x) ---->  type ekta function, jeitate kono object ba argument pass korle, oitar type somporke jana jay.
+
+===================================
+
+0 r empty string sudhu false hisebe bibechito bolean value te.  r baki sob true

@@ -1,0 +1,3 @@
+enumerate() ----->> list ba tuple er upore loop chalanor somoy, items gulor index number dewar jonno use kora hoy.
+                    prottek loop a eti ekti Iterable object return kore , jeikhane 2ta value thake, r sei object ta
+                    tuple akare thake. 2ta value er prothom ta index number, r 2nd ta sei index er item.

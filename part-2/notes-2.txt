@@ -1,0 +1,10 @@
+len() --->> string er length janar jonno len() function use kora hoy
+variablename[eikhane string er index number] --->> kono string er kono charactar er access pete hoilee eti usef hoy.  Ar-, string er index 0 theke start hoy . mane string er prothon charactar 0 2nd ta 1 evabe index num count hoyq.
+
+jodi kono string er 1st 3 charactar print korte chawa hoy, tahole ---->>>  print(course[0:3])
+
+\  --->> escspe sequences hisebe kaj kore. string er moddhe \ er porer charactar k escape korar jonno use kora hoy.
+
+\n --->>  new line er jonno.
+
+formatted string ---->> formatted string just ekta expression, jeita runtime a execute hoy.  concatination er poriborte eti use kora better.  f"{} {}".  formatted string er second brkt er moddhe jekono valid expression use kora jay. 

@@ -1,0 +1,3 @@
+terminal a  --->>    ord("a")   ord er brkt er moddhe kono charactar likhle seitar numerical value pawa jay
+
+"bag" > "appla" ---->> eita true hobe, karon, bag er numerical value besi

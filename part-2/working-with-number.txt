@@ -1,0 +1,3 @@
+https://docs.python.org/3/library/math.html
+
+python 3.9 er math module er link
