@@ -16,4 +16,4 @@ poin = Point(1, 2)
 other = Point(1, 2)
 
 
-print(poin + other)  # add korte chaile error asbe, eita solve er jonno--->> __add__ magic method use korte hobe.
+print(poin + other  # add korte chaile error asbe, eita solve er jonno--->> __add__ magic method use korte hobe.

@@ -8,12 +8,28 @@ class TagCloud:
     def __getitem__(self, tag):
         return self.tags.get(tag.lower(), 0)
     def __setitem__(self, tag, count):
+        self.tags[tag.lower()] = count
+
+    def __len__(self):
+            return len(self.tags)
+
+    def __iter__(self):
+        return iter(self.tags)
+
+
+
 
 
 cloud = TagCloud()
-cloud["python"]
+cloud["python"] = 10
 cloud.add("Python")
 cloud.add("python")
 cloud.add("python")
+print(len(cloud))
 
 print(cloud.tags)
+
+for item in cloud.tags:
+    print(item)
+
+

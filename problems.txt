@@ -1,1 +1,2 @@
 1. Magic method
+2. class private members
