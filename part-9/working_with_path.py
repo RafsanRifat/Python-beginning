@@ -18,3 +18,4 @@ print(path.stem)                    # this will return only the file name withou
 print(path.suffix)                    # this will return only the file  the extension
 print(path.parent)                    # this will return the parent
 path = path.with_name("file.txt")
+print(path.home())                      # it will show the current directory of the current user
