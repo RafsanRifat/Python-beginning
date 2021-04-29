@@ -20,4 +20,5 @@ print(info.compress_size)
 
 zip.extractall("extract") # zip file ta extract kora hoilo. eikhane  .extractall() method er moddhe jei file a extract
                          # kora hobe, tar name define kora holo. oi namer folder toiri kore tar moddhe extract korbe
+                         #
 
