@@ -18,7 +18,7 @@ Path("movies.json").write_text(data)  # current directory te movies.json namer e
 
 # kono json file read korar jonno =================================== --->>>
 read_data = Path("movies.json").read_text() # eikhane json format er data gulo string akare read_data variable a store holo.
-read_movies = json.loads(read_data)  # this will return an array of dictionaries.
+read_movies = json.loads(read_data)  # this will return an array of dictionaries. string type json ke array kora hocche
 
 print(read_movies)
 print(read_movies[0])
