@@ -23,4 +23,3 @@ read_movies = json.loads(read_data)  # this will return an array of dictionaries
 print(read_movies)
 print(read_movies[0])
 print(read_movies[0] ["title"])
-
