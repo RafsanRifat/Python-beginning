@@ -9,7 +9,7 @@ from string import Template                 # we will use The "Template" class t
 
 template = Template(Path("template.html").read_text())   # html template file er ekta template obj toiri kore newa hoilo.
 
-template.substitute()   # with this "substitute()" method, we can replace parameters dynamicly.
+# template.substitute()                     # with this "substitute()" method, we can replace parameters dynamicly.
 
 
 
@@ -20,10 +20,13 @@ message = MIMEMultipart()
 message["from"] = "Rafsan"
 message["to"] = "rafsantest255@gmail.com"
 message["subject"] = "This is a Test"
+body = template.substitute({"name": "Rafsan"})         # ei "substitute()" method er moddho diyea amra ekta dictionary pass
+                                                # korte pari.  we can also pass keyword argument here instead of dictionary
+                                                # like below ===>>
+# body = template.substitute(name = "Rafsan")
 
-
-message.attach(MIMEText("Here is the message body"))
-message.attach(MIMEImage(Path("rafsan.jpeg").read_bytes()))
+message.attach(MIMEText(body, "html"))
+# message.attach(MIMEImage(Path("rafsan.jpeg").read_bytes()))
 
 
 
@@ -31,7 +34,7 @@ message.attach(MIMEImage(Path("rafsan.jpeg").read_bytes()))
 with smtplib.SMTP(host="smtp.gmail.com", port = 587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login("here is the email", "here is the password")
+    smtp.login("here is email", "here is password")
     smtp.send_message(message)
     print("sent")
 
