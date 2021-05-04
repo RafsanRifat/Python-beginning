@@ -28,3 +28,5 @@ with sqlite3.connect("db.sqlite3") as connection:  # to read the data from the d
     #     print(single_data)
     table_data_list = cursor.fetchall()  # we will get all the movie list of the table from this way as an/a array/list
     print(table_data_list)
+
+
