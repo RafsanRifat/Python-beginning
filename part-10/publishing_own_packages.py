@@ -10,6 +10,6 @@
     3. Then follow, mosh video  steps and complete those.
     4. now, for finally upload that package to pypi.org ------>>>
             twine upload dist/*     --> run this command then it will ask for pypi.org user name and password. provide those,
-            and thae package will upload.
+            and the package will upload.
 
 """
